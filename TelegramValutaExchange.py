@@ -4,10 +4,10 @@ from bs4 import BeautifulSoup
 import requests
 
 bot = telebot.TeleBot("5358581757:AAHcBfyCoSGBxWwtgicNEdJ1f8swzC4-cvQ")
-valuta_categories = ["Доллар-Продажа", "Доллар-Покупка",
-                     "Евро-Продажа", "Евро-Покупка",
-                     "Рубль-Продажа", "Рубль-Покупка",
-                     "Тенге-Продажа", "Тенге-Покупка"]
+valuta_categories = ["Доллар-Покупка", "Доллар-Продажа",
+                     "Евро-Покупка", "Евро-Продажа",
+                     "Рубль-Покупка", "Рубль-Продажа",
+                     "Тенге-Покупка", "Тенге-Продажа"]
 
 
 # Команда start
@@ -58,49 +58,49 @@ def start(message):
                         index = index+1
 
 
-                    if(valuta_category == "Доллар-Продажа"):
+                    if(valuta_category == "Доллар-Покупка"):
                         for onlyBankValute in tableBankValute:
                             if(len(onlyBankValute)>0):
                                 if(float(onlyBankValute[1]) <= porog_number):
                                     bot.send_message(message.chat.id, f"{onlyBankValute[0]} {onlyBankValute[1]}")
 
-                    if(valuta_category == "Доллар-Покупка"):
+                    if(valuta_category == "Доллар-Продажа"):
                         for onlyBankValute in tableBankValute:
                             if(len(onlyBankValute)>0):
                                 if(float(onlyBankValute[2]) <= porog_number):
                                     bot.send_message(message.chat.id, f"{onlyBankValute[0]} {onlyBankValute[2]}")
 
-                    if(valuta_category == "Евро-Продажа"):
+                    if(valuta_category == "Евро-Покупка"):
                         for onlyBankValute in tableBankValute:
                             if(len(onlyBankValute)>0):
                                 if(float(onlyBankValute[3]) <= porog_number):
                                     bot.send_message(message.chat.id, f"{onlyBankValute[0]} {onlyBankValute[3]}")
 
-                    if(valuta_category == "Евро-Покупка"):
+                    if(valuta_category == "Евро-Продажа"):
                         for onlyBankValute in tableBankValute:
                             if(len(onlyBankValute)>0):
                                 if(float(onlyBankValute[4]) <= porog_number):
                                     bot.send_message(message.chat.id, f"{onlyBankValute[0]} {onlyBankValute[4]}")
 
-                    if(valuta_category == "Рубль-Продажа"):
+                    if(valuta_category == "Рубль-Покупка"):
                         for onlyBankValute in tableBankValute:
                             if(len(onlyBankValute)>0):
                                 if(float(onlyBankValute[5]) <= porog_number):
                                     bot.send_message(message.chat.id, f"{onlyBankValute[0]} {onlyBankValute[5]}")
 
-                    if(valuta_category == "Рубль-Покупка"):
+                    if(valuta_category == "Рубль-Продажа"):
                         for onlyBankValute in tableBankValute:
                             if(len(onlyBankValute)>0):
                                 if(float(onlyBankValute[6]) <= porog_number):
                                     bot.send_message(message.chat.id, f"{onlyBankValute[0]} {onlyBankValute[6]}")
 
-                    if(valuta_category == "Тенге-Продажа"):
+                    if(valuta_category == "Тенге-Покупка"):
                         for onlyBankValute in tableBankValute:
                             if(len(onlyBankValute)>0):
                                 if(float(onlyBankValute[7]) <= porog_number):
                                     bot.send_message(message.chat.id, f"{onlyBankValute[0]} {onlyBankValute[7]}")
 
-                    if(valuta_category == "Тенге-Покупка"):
+                    if(valuta_category == "Тенге-Продажа"):
                         for onlyBankValute in tableBankValute:
                             if(len(onlyBankValute)>0):
                                 if(float(onlyBankValute[8]) <= porog_number):

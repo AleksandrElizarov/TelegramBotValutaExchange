@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="122b434d-4f3e-424b-a399-494dedea6411" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TelegramBot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TelegramValutaExchange.py" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramValutaExchange.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +83,9 @@
       <workItem from="1651325008467" duration="618000" />
       <workItem from="1651343707240" duration="1452000" />
       <workItem from="1651654459200" duration="188000" />
-      <workItem from="1651708530754" duration="4235000" />
+      <workItem from="1651708530754" duration="4670000" />
+      <workItem from="1651713452340" duration="4713000" />
+      <workItem from="1651718534491" duration="598000" />
     </task>
     <servers />
   </component>
