@@ -1,6 +1,5 @@
 import telebot
 from telebot import types
-import math
 from bs4 import BeautifulSoup
 import requests
 
